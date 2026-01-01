@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyanjali High School</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 30px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Divyanjali High School</h1>
+        <p>Knowledge • Discipline • Excellence</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#academics">Academics</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Welcome to Divyanjali High School. Our school is dedicated to providing quality education and building a bright future for students.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Our School</h2>
+        <p>Divyanjali High School focuses on academic excellence, moral values, and overall development of students.</p>
+    </section>
+
+    <section id="academics">
+        <h2>Academics</h2>
+        <ul>
+            <li>Primary Education</li>
+            <li>Secondary Education</li>
+            <li>Science, Mathematics, Languages</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: Your School Address Here</p>
+        <p>Phone: 0000000000</p>
+        <p>Email: info@divyanjalischool.com</p>
+    </section>
+
+    <footer>
+        <p>Website designed by Huzair (Student Project)</p>
+    </footer>
+
+</body>
+</html>
